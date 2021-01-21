@@ -1,30 +1,20 @@
-/*These are the attributes that are assigned to the h1 tag in the html file*/
 h1 {
-  color: green;
+  color: Blue;
   font size: 250%
 }
-/*These are the attributes that are assigned to the h2 tag in the html file*/
 h2 {
-  color: green;
+  color: Red;
   font size: 200%
-}
-/*These are the attributes to anyhting between the <p> and </p> tag in the HTML
-file*/
-h5 {
-  color: green;
 }
 p {
   font-family: "comic-sans";
   text-indent: 10px;
   margin-left: 0px;
   margin-right: 0px;
-  color: green;
+  color: Black;
 }
-/*This changes the attrubutes that can be seen on the webpage such as the color
-of the background, borders around the text, and how the text is spaced in the
-window and within the border as well.*/
 body {
-  background-color: darkblue;
+  background-color: grey;
   width: auto;
   height: auto;
   padding: 15px;
@@ -32,7 +22,6 @@ body {
   border: solid 3px #000000;
   font-size: 30px;
 }
-
 #main {
   background-color: #000000;
   width: auto;
@@ -42,5 +31,3 @@ body {
   border: dotted 5px #FF0000;
   font-size: 30px;
 }
-/*Feel free to experiment with these options and change the look of the website
-if you want.*/
