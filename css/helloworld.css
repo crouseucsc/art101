@@ -5,13 +5,13 @@ h1 {
 }
 /*These are the attributes that are assigned to the h2 tag in the html file*/
 h2 {
-  color: white;
+  color: red;
   font size: 200%
 }
 /*These are the attributes to anyhting between the <p> and </p> tag in the HTML
 file*/
 h5 {
-  color: white;
+  color: red;
 }
 p {
   font-family: "comic-sans";
