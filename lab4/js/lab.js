@@ -3,7 +3,7 @@
 //Create joints on the rigged avatar.
   //Create rigged joints or point selections.
     //Research how to set certain pixels to be selectors.
-      //Set functions for move and roate tools.
+      //Set functions for move and rotate tools.
 //Insert x, y,and z cooridantes to determine destination of joint.
   //Once at destination, note again the cooridinates and save destination in timeline.
     //Scrub or scroll through current animation
