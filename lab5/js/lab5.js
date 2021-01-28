@@ -14,8 +14,8 @@ year = 1995;
 age = 2021 - year;
 
 //Output
-document.writeIn("Make: " + make + "<br>");
-document.writeIn("Model: " + model + "<br>");
-document.writeIn("Color: " + color + "<br>");
-document.writeIn("Year: " + year + "<br>");
-document.writeIn("Age: " + age + "<br>");
+document.write("Make: " + make + "<br>");
+document.write("Model: " + model + "<br>");
+document.write("Color: " + color + "<br>");
+document.write("Year: " + year + "<br>");
+document.write("Age: " + age + "<br>");
