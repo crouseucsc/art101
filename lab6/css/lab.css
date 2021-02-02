@@ -1,0 +1,41 @@
+h1 {
+  color: darkblue;
+  font size: 250%
+}
+
+h2 {
+  color: red;
+  font size: 200%
+}
+
+h3 {
+  color: purple;
+}
+
+p {
+  font-family: "comic-sans";
+  text-indent: 5px;
+  margin-left: 10px;
+  margin-right: 0px;
+  color: black;
+}
+
+body {
+  background-color: grey;
+  width: auto;
+  height: auto;
+  padding: 15px;
+  margin: 30px;
+  border: solid 3px #000000;
+  font-size: 30px;
+}
+
+#content {
+  background-color: yellow;
+  width: auto;
+  height: auto;
+  padding: 15px;
+  margin: 30px;
+  border: dotted 5px #FF0000;
+  font-size: 30px;
+}
