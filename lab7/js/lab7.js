@@ -7,7 +7,7 @@ Assignment: Lab 6 Functions
 */
 function getName() {
   //The prompt() method displays a dialog box that prompts the visitor for input.
-  var userName = window.prompt("Please enter your name: ");
+  var userName = window.prompt("Please enter your full name: ");
   //        Display string    Input
   console.log("User name: ", userName);
   /*The split() method is used to split a string into an array of substrings,
@@ -35,4 +35,4 @@ function getName() {
   return nameSorted;
 }
 //Output
-document.writeln("Your name is fixed: ", getName(), "</br>");
+document.writeln("Your name is fixed!: ", getName(), "</br>");
