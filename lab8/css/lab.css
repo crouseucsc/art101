@@ -1,0 +1,56 @@
+img {
+  width: 100%;
+  height: auto;
+}
+
+h1 {
+  color: black;
+  font size: 250%
+}
+
+h2 {
+  color: darkblue;
+  font size: 200%
+}
+
+h3 {
+  color: blue;
+}
+
+p {
+  font-family: "comic-sans";
+  text-indent: 5px;
+  margin-left: 10px;
+  margin-right: 0px;
+  color: #474747;
+}
+
+body {
+  background-color: darkred;
+  width: auto;
+  height: auto;
+  padding: 15px;
+  margin: 30px;
+  border: solid 3px #000000;
+  font-size: 30px;
+}
+
+#output {
+  background-color: #bfe4ff;
+  width: auto;
+  height: auto;
+  padding: 15px;
+  margin: 30px;
+  border: dotted 5px #FF0000;
+  font-size: 30px;
+}
+
+#content {
+  background-color: yellow;
+  width: auto;
+  height: auto;
+  padding: 15px;
+  margin: 30px;
+  border: dotted 5px #FF0000;
+  font-size: 30px;
+}
