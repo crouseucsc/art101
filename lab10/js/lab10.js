@@ -1,8 +1,9 @@
 /*
 Authored: Christian Rouse
 Professor: Wes Modes
+TA: Brock Stuessi
 Class: Art-101-01: Introduction to Computer Programming for the Arts
-Due Date: 11 February 2021
+Due Date: 16 February 2021
 */
 var outputEl = document.getElementById("output"); /*Get element denoted with
 the id of output located in HTML.*/
