@@ -36,20 +36,20 @@ $(document).ready(function(){//get ready a function in the entire document?
 });
 
 $(document).ready(function(){//get ready a function in the entire document?
-  $("#css-challenge").click(function(){//when the button under id of css-button is clicked
+  $("#css-challenge").click(function(){//when the button under id of css-challenge is clicked
     $("#challenge").toggleClass("challenge");//toggle the css on or off of the div id of challenge with a class of 'special'
   });
 });
 
 $(document).ready(function(){//get ready a function in the entire document?
-  $("#css-problem").click(function(){//when the button under id of css-button is clicked
-    $("#problem").toggleClass("problem");//toggle the css on or off of the div id of challenge with a class of 'special'
+  $("#css-problem").click(function(){//when the button under id of css-problem is clicked
+    $("#problem").toggleClass("problem");//toggle the css on or off of the div id of problem with a class of 'special'
   });
 });
 
 $(document).ready(function(){//get ready a function in the entire document?
-  $("#css-result").click(function(){//when the button under id of css-button is clicked
-    $("#result").toggleClass("result");//toggle the css on or off of the div id of challenge with a class of 'special'
+  $("#css-result").click(function(){//when the button under id of css-result is clicked
+    $("#result").toggleClass("result");//toggle the css on or off of the div id of result with a class of 'special'
   });
 });
 
