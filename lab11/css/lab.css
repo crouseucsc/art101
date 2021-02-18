@@ -8,6 +8,17 @@
   font-size: 30px;
 }
 
+.challenge {
+  background-color: Purple;
+}
+
+.problem {
+  background-color: red;
+}
+
+.result {
+  background-color: green;
+}
 img {
   width: 100%;
   height: auto;
