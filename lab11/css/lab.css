@@ -47,13 +47,6 @@ body {
   font-size: 30px;
 }
 
-#output {
-  background-color: white;
-  width: auto;
-  height: auto;
-  padding: 15px;
-  margin: 30px;
-  border: dotted 5px yellow;
-  font-size: 30px;
-  color: lime;
+.special {
+  background-color: blue;
 }
