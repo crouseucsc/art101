@@ -1,0 +1,63 @@
+#content {
+  background-color: black;
+  width: auto;
+  height: auto;
+  padding: 30px;
+  margin: 30px;
+  border: dotted 5px #FF0000;
+  font-size: 30px;
+}
+
+.challenge {
+  background-color: Purple;
+}
+
+.problem {
+  background-color: red;
+}
+
+.result {
+  background-color: green;
+}
+img {
+  width: 100%;
+  height: auto;
+}
+
+h1 {
+  color: lime;
+  font size: 100%
+}
+
+h2 {
+  color: lime;
+  font size: 100%
+}
+
+h3 {
+  color: lime;
+}
+
+p {
+  font-family: "comic-sans";
+  text-indent: 5px;
+  margin-left: 30px;
+  margin-right: 30px;
+  color: lime;
+  text-align: justify;
+
+}
+
+body {
+  background-color: grey;
+  width: auto;
+  height: auto;
+  padding: 30px;
+  margin: 30px;
+  border: solid 5px #000000;
+  font-size: 30px;
+}
+
+.special {
+  background-color: blue;
+}
