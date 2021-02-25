@@ -1,4 +1,4 @@
-// Authored: Christian Rouse and Wes Modes //https://people.ucsc.edu/~wmodes/art101/lab12/index.html
+// Authored: Christian Rouse "and" Wes Modes // https://people.ucsc.edu/~wmodes/art101/lab12/index.html
 // Professor: Wes Modes
 // TA: Brock Stuessi
 // Class: Art-101-01: Introduction to Computer Programming for the Arts
