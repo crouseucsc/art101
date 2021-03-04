@@ -63,3 +63,8 @@ p {
   color: black;
   text-align: justify;
 }
+
+#output-image {
+  width: 150px;
+  height: 150px;
+}
