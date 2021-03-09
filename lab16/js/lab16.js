@@ -2,25 +2,32 @@
 // Professor: Wes Modes
 // TA: Brock Stuessi
 // Class: Art-101-01: Introduction to Computer Programming for the Arts
-// Due Date: 4 March 2021
+// Due Date: 9 March 2021
 
-$('#activate').click(function() {
-  var topic =$('#topic').val();
-  var apiURL = "https://en.wikipedia.org/api/rest_v1/page/summary/" + topic.replace(" ", "_") + "?redirect=true";
-
-$.ajax({
-    url: apiURL,
-    data: { },
-    type: "GET",
-    dataType : "json",
+var apiEndpoint = "https://xkcd.com/info.0.json"; //information origin.
+$("#api-button").click(doAPIStuff);
+function putTextOnPage(text){
+  $("#output").html(text);
+} //on button click, activate doAPIStuff function defined below.
+function doAPIStuff() {
+  $.ajax({
+    url: apiEndpoint,
+    data: { }, //data from th URL will be input.
+    type: "GET", //fetch sounds better
+    dataType: "json",
     success: function(data) {
-      if (data.extract_html) {
-        $('#output-text').html(data.extract_html);
-      } else {$("#output").html("<p>Could not find any information, try another spelling or inoput a different topic.");}
+      var textData = JSON.stringify(data); //take the data and covert it into a string.
+      var str = "";
+      var imageURL = data.img; //get image
+      var title = data.title; //get title
+      var alt = data.alt; //get alternate info
+      str += "<h3>" + title + "</h3>";
+      str += "<img src='" + imageURL + "' title='" + alt + "'>";
+      putTextOnPage(str);
+      console.log("Success:", textData); //display in the console if functionning correctly.
     },
-    error: function (jqXHR, errorThrown) {
-      $('#output-text').html("<p>Could not find any information, try another spelling or input a different topic.");
-        console.log("Error:", errorThrown);
+    error: function (jqXHR, textStatus, errorThrown) {
+        console.log("Error:", textStatus, errorThrown);
     }
-  })
 })
+}
